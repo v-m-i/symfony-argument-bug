@@ -3,14 +3,12 @@
 1. Run `bin/console example`
 2. Output should be 
 ```
-"first"
+""
 "second"
-"third"
 ```
 but it will be 
 ```
-"first"
-"third"
+"second"
 ""
 ```
 

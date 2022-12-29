@@ -23,8 +23,7 @@ return static function (ContainerConfigurator $configurator): void {
                 ->factory(service(ExampleFactory::class))
                 ->args(
                     [
-                        '$first' => 'first',
-                        '$third' => 'third',
+                        '$second' => 'second',
                     ]
                 )
         )
